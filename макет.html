@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip & Mind</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+        }
+    
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        header h1 {
+            margin: 0;
+        }
+    
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+    
+        header nav ul li {
+            margin: 0;
+        }
+    
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    
+        .hero {
+            background-image: url('images/Frame.png'); /* Замените на реальный путь к изображению */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 150px 0;
+            text-align: center;
+        }
+    
+        .hero h2 {
+            font-size: 3em;
+            margin: 0.5em 0;
+        }
+    
+        .hero p {
+            font-size: 1.5em;
+        }
+    
+        .hero button {
+            background: #ffa500;
+            border: none;
+            padding: 15px 30px;
+            color: #fff;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    
+        .tours, .consultation, .reviews {
+            padding: 50px 0;
+            background-color: #fff;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+    
+        .tours h2, .consultation h2, .reviews h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+    
+        .tour-card, .review-card {
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    
+        .tour-card img, .review-card img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+    
+        .tour-card p, .review-card p {
+            font-size: 1.2em;
+        }
+    
+        form input, form button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px;
+            font-size: 1.2em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    
+        form button {
+            background: #ffa500;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="tour-card">
+            <img src="https://www.example.com/path/to/image1.jpg" alt="Водопады Исландии">
+            <p>Водопады Исландии</p>
+        </div>
+        <div class="tour-card">
+            <img src="https://www.example.com/path/to/image2.jpg" alt="Вечерние Доломиты">
+            <p>Вечерние Доломиты</p>
+        </div>
+        <div class="tour-card">
+            <img src="https://www.example.com/path/to/image3.jpg" alt="Нежная Норвегия">
+            <p>Нежная Норвегия</p>
+        </div>
+        <div class="review-card">
+            <img src="https://www.example.com/path/to/image4.jpg" alt="Отзыв 1">
+            <p>Пожалуй, это был самый лучший отпуск в моей жизни...</p>
+        </div>        
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Trip & Mind</p>
+        </div>
+    </footer>
+</body>
+</html>
